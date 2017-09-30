@@ -1,0 +1,468 @@
+2017-09-27 20:22:02,680 INFO: Scrapy 1.4.0 started (bot: tcErShouFangT0)
+2017-09-27 20:22:02,680 INFO: Overridden settings: {'BOT_NAME': 'tcErShouFangT0', 'DOWNLOAD_DELAY': 0.5, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'NEWSPIDER_MODULE': 'tcErShouFangT0.spiders', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'SPIDER_MODULES': ['tcErShouFangT0.spiders']}
+2017-09-27 20:22:02,708 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-09-27 20:22:02,708 INFO: Reading start URLs from redis key 'tcErShouFang:Start_URL' (batch size: 16, encoding: utf-8
+2017-09-27 20:22:02,801 INFO: Enabled downloader middlewares:
+['tcErShouFangT0.middlewares.Tcershoufangt0SpiderMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-09-27 20:22:02,804 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-09-27 20:22:02,806 INFO: Enabled item pipelines:
+['scrapy_redis.pipelines.RedisPipeline']
+2017-09-27 20:22:02,806 INFO: Spider opened
+2017-09-27 20:22:02,855 DEBUG: Resuming crawl (7311 requests scheduled)
+2017-09-27 20:22:02,855 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-09-27 20:22:02,857 DEBUG: Telnet console listening on 127.0.0.1:6024
+2017-09-27 20:22:03,309 DEBUG: Crawled (200) <GET http://bj.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:03,336 DEBUG: Crawled (200) <GET http://bd.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:03,368 DEBUG: Crawled (200) <GET http://bh.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:03,403 DEBUG: Crawled (200) <GET http://bt.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:03,471 DEBUG: Crawled (200) <GET http://ale.58.com/alaerzhoubian/chuzu/> (referer: http://ale.58.com/chuzu/)
+2017-09-27 20:22:03,473 DEBUG: Crawled (200) <GET http://bz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:03,476 DEBUG: Crawled (200) <GET http://cc.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:03,529 DEBUG: Crawled (200) <GET http://aks.58.com/akeshuzhoubian/chuzu/> (referer: http://aks.58.com/chuzu/)
+2017-09-27 20:22:03,633 DEBUG: Crawled (200) <GET http://by.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:03,638 DEBUG: Crawled (200) <GET http://cd.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:03,867 DEBUG: Crawled (200) <GET http://ch.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:03,869 DEBUG: Crawled (200) <GET http://bc.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:03,871 DEBUG: Crawled (200) <GET http://bn.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:03,873 DEBUG: Crawled (200) <GET http://cs.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:04,094 DEBUG: Crawled (200) <GET http://cz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:04,096 DEBUG: Crawled (200) <GET http://cx.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:04,272 DEBUG: Crawled (200) <GET http://as.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:04,346 DEBUG: Crawled (200) <GET http://ale.58.com/jinyinchuanlu/chuzu/> (referer: http://ale.58.com/chuzu/)
+2017-09-27 20:22:04,423 DEBUG: Crawled (200) <GET http://bs.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:04,509 DEBUG: Crawled (200) <GET http://cm.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:04,511 DEBUG: Crawled (200) <GET http://cy.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:04,589 DEBUG: Crawled (200) <GET http://df.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:04,600 DEBUG: Crawled (200) <GET http://dg.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:04,640 DEBUG: Crawled (200) <GET http://dy.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:04,709 DEBUG: Crawled (200) <GET http://da.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:04,711 DEBUG: Crawled (200) <GET http://ay.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:04,713 DEBUG: Crawled (200) <GET http://dz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:04,716 DEBUG: Crawled (200) <GET http://dl.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:04,799 DEBUG: Crawled (200) <GET http://dq.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,011 DEBUG: Crawled (200) <GET http://ez.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,014 DEBUG: Crawled (200) <GET http://fcg.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,188 DEBUG: Crawled (200) <GET http://fx.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,198 DEBUG: Crawled (200) <GET http://fs.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,348 DEBUG: Crawled (200) <GET http://fy.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,361 DEBUG: Crawled (200) <GET http://gg.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,370 DEBUG: Crawled (200) <GET http://gn.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,384 DEBUG: Crawled (200) <GET http://gy.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,405 DEBUG: Crawled (200) <GET http://es.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,482 DEBUG: Crawled (200) <GET http://gt.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,540 DEBUG: Crawled (200) <GET http://gz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,543 DEBUG: Crawled (200) <GET http://fz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,545 DEBUG: Crawled (200) <GET http://ga.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,633 DEBUG: Crawled (200) <GET http://gl.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,666 DEBUG: Crawled (200) <GET http://dt.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,668 DEBUG: Crawled (200) <GET http://dx.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,888 DEBUG: Crawled (200) <GET http://ha.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,890 DEBUG: Crawled (200) <GET http://fcg.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,892 DEBUG: Crawled (200) <GET http://hd.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,894 DEBUG: Crawled (200) <GET http://hf.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,895 DEBUG: Crawled (200) <GET http://hg.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:05,898 DEBUG: Crawled (200) <GET http://hb.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:22:06,028 DEBUG: Crawled (200) <GET http://dh.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:40,502 INFO: Scrapy 1.4.0 started (bot: tcErShouFangT0)
+2017-09-27 20:24:40,503 INFO: Overridden settings: {'BOT_NAME': 'tcErShouFangT0', 'DOWNLOAD_DELAY': 0.5, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'NEWSPIDER_MODULE': 'tcErShouFangT0.spiders', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'SPIDER_MODULES': ['tcErShouFangT0.spiders']}
+2017-09-27 20:24:40,531 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-09-27 20:24:40,532 INFO: Reading start URLs from redis key 'tcErShouFang:Start_URL' (batch size: 16, encoding: utf-8
+2017-09-27 20:24:40,619 INFO: Enabled downloader middlewares:
+['tcErShouFangT0.middlewares.Tcershoufangt0SpiderMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-09-27 20:24:40,621 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-09-27 20:24:40,623 INFO: Enabled item pipelines:
+['scrapy_redis.pipelines.RedisPipeline']
+2017-09-27 20:24:40,624 INFO: Spider opened
+2017-09-27 20:24:40,667 DEBUG: Resuming crawl (7245 requests scheduled)
+2017-09-27 20:24:40,667 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-09-27 20:24:40,669 DEBUG: Telnet console listening on 127.0.0.1:6024
+2017-09-27 20:24:41,085 DEBUG: Crawled (200) <GET http://hy.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,095 DEBUG: Crawled (200) <GET http://ja.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,111 DEBUG: Crawled (200) <GET http://jj.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,130 DEBUG: Crawled (200) <GET http://jn.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,153 DEBUG: Crawled (200) <GET http://jh.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,165 DEBUG: Crawled (200) <GET http://hz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,188 DEBUG: Crawled (200) <GET http://jms.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,228 DEBUG: Crawled (200) <GET http://jl.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,272 DEBUG: Crawled (200) <GET http://jy.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,504 DEBUG: Crawled (200) <GET http://jz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,506 DEBUG: Crawled (200) <GET http://hx.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,508 DEBUG: Redirecting (301) to <GET http://bygl.58.com/chuzu/> from <GET http://kel.58.com/chuzu/>
+2017-09-27 20:24:41,514 DEBUG: Filtered duplicate request <GET http://bygl.58.com/chuzu/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2017-09-27 20:24:41,632 DEBUG: Crawled (200) <GET http://kl.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,750 DEBUG: Crawled (200) <GET http://jm.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,888 DEBUG: Redirecting (301) to <GET http://bygl.58.com/qiuzu/> from <GET http://kel.58.com/qiuzu/>
+2017-09-27 20:24:41,962 DEBUG: Crawled (200) <GET http://ks.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,972 DEBUG: Crawled (200) <GET http://lc.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,974 DEBUG: Crawled (200) <GET http://lb.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:41,977 DEBUG: Crawled (200) <GET http://jx.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,003 DEBUG: Crawled (200) <GET http://la.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,005 DEBUG: Crawled (200) <GET http://ld.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,022 DEBUG: Crawled (200) <GET http://jdz.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,036 DEBUG: Crawled (200) <GET http://jms.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,208 DEBUG: Crawled (200) <GET http://lf.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,210 DEBUG: Crawled (200) <GET http://ln.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,341 DEBUG: Crawled (200) <GET http://jyg.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,345 DEBUG: Crawled (200) <GET http://lw.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,384 DEBUG: Crawled (200) <GET http://ls.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,438 DEBUG: Crawled (200) <GET http://lps.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,485 DEBUG: Crawled (200) <GET http://ly.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,513 DEBUG: Crawled (200) <GET http://lyg.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,664 DEBUG: Crawled (200) <GET http://mas.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,722 DEBUG: Crawled (200) <GET http://km.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,791 DEBUG: Crawled (200) <GET http://mdj.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,842 DEBUG: Crawled (200) <GET http://mm.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,922 DEBUG: Crawled (200) <GET http://mg.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:42,971 DEBUG: Crawled (200) <GET http://jyg.58.com/wuyi/chuzu/> (referer: http://jyg.58.com/chuzu/)
+2017-09-27 20:24:42,999 DEBUG: Crawled (200) <GET http://ms.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,020 DEBUG: Crawled (200) <GET http://lyg.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,167 DEBUG: Crawled (200) <GET http://lps.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,190 DEBUG: Crawled (200) <GET http://nc.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,200 DEBUG: Crawled (200) <GET http://nd.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,220 DEBUG: Crawled (200) <GET http://nj.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,287 DEBUG: Crawled (200) <GET http://mas.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,435 DEBUG: Crawled (200) <GET http://nb.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,437 DEBUG: Crawled (200) <GET http://nn.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,461 DEBUG: Crawled (200) <GET http://nq.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,472 DEBUG: Crawled (200) <GET http://ny.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,618 DEBUG: Crawled (200) <GET http://nt.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,772 DEBUG: Crawled (200) <GET http://pe.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,811 DEBUG: Crawled (200) <GET http://pld.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,825 DEBUG: Crawled (200) <GET http://pl.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,858 DEBUG: Crawled (200) <GET http://pj.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:43,955 DEBUG: Crawled (200) <GET http://pt.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:44,013 DEBUG: Crawled (403) <GET http://qdn.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:44,113 ERROR: <twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2017-09-27 20:24:44,113 ERROR: Occur HttpError on http://qdn.58.com/chuzu/
+2017-09-27 20:24:44,130 DEBUG: Crawled (200) <GET http://px.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:44,483 DEBUG: Crawled (200) <GET http://pld.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:44,492 DEBUG: Crawled (200) <GET http://qj.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:44,807 DEBUG: Crawled (200) <GET http://qhd.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:45,457 DEBUG: Crawled (200) <GET http://qn.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:45,480 DEBUG: Crawled (200) <GET http://qxn.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:45,515 DEBUG: Crawled (200) <GET http://qth.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:45,610 DEBUG: Crawled (200) <GET http://np.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 20:24:45,657 DEBUG: Crawled (200) <GET http://qhd.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 20:24:45,732 DEBUG: Crawled (200) <GET http://qth.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:30,909 INFO: Scrapy 1.4.0 started (bot: tcErShouFangT0)
+2017-09-27 21:18:30,909 INFO: Overridden settings: {'BOT_NAME': 'tcErShouFangT0', 'DOWNLOAD_DELAY': 0.5, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'NEWSPIDER_MODULE': 'tcErShouFangT0.spiders', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'SPIDER_MODULES': ['tcErShouFangT0.spiders']}
+2017-09-27 21:18:30,938 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-09-27 21:18:30,939 INFO: Reading start URLs from redis key 'tcErShouFang:Start_URL' (batch size: 16, encoding: utf-8
+2017-09-27 21:18:31,025 INFO: Enabled downloader middlewares:
+['tcErShouFangT0.middlewares.Tcershoufangt0SpiderMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-09-27 21:18:31,028 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-09-27 21:18:31,030 INFO: Enabled item pipelines:
+['scrapy_redis.pipelines.RedisPipeline']
+2017-09-27 21:18:31,031 INFO: Spider opened
+2017-09-27 21:18:31,061 DEBUG: Resuming crawl (7174 requests scheduled)
+2017-09-27 21:18:31,062 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-09-27 21:18:31,063 DEBUG: Telnet console listening on 127.0.0.1:6024
+2017-09-27 21:18:31,514 DEBUG: Crawled (200) <GET http://sn.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:31,563 DEBUG: Crawled (200) <GET http://sl.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:31,663 DEBUG: Crawled (200) <GET http://shz.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:31,696 DEBUG: Crawled (200) <GET http://sq.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:31,706 DEBUG: Crawled (200) <GET http://snj.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:31,709 DEBUG: Crawled (200) <GET http://sh.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:31,724 DEBUG: Crawled (200) <GET http://smx.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:31,817 DEBUG: Crawled (200) <GET http://st.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:31,963 DEBUG: Crawled (200) <GET http://sw.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:32,092 DEBUG: Crawled (200) <GET http://sz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:32,130 DEBUG: Crawled (200) <GET http://shz.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:32,277 DEBUG: Crawled (200) <GET http://su.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:32,326 DEBUG: Crawled (200) <GET http://snj.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:32,346 DEBUG: Crawled (200) <GET http://sy.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:32,471 DEBUG: Crawled (200) <GET http://ta.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:32,475 DEBUG: Crawled (200) <GET http://smx.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:32,600 DEBUG: Crawled (200) <GET http://sr.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:32,601 DEBUG: Crawled (200) <GET http://sys.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:32,769 DEBUG: Crawled (200) <GET http://sx.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:32,799 DEBUG: Crawled (200) <GET http://tac.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:32,897 DEBUG: Crawled (200) <GET http://szs.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:32,948 DEBUG: Crawled (200) <GET http://sjz.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:32,956 DEBUG: Crawled (200) <GET http://tlf.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:32,959 DEBUG: Crawled (200) <GET http://tj.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:33,257 DEBUG: Crawled (200) <GET http://tr.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:33,302 DEBUG: Crawled (200) <GET http://sjz.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:33,326 DEBUG: Crawled (200) <GET http://tac.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:33,355 DEBUG: Crawled (200) <GET http://ty.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:33,492 DEBUG: Crawled (200) <GET http://th.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:33,619 DEBUG: Crawled (200) <GET http://ts.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:33,644 DEBUG: Crawled (200) <GET http://tlf.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:33,818 DEBUG: Crawled (200) <GET http://tm.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:33,823 DEBUG: Crawled (200) <GET http://wf.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:33,849 DEBUG: Crawled (200) <GET http://tz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:33,851 DEBUG: Crawled (200) <GET http://wh.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:34,072 DEBUG: Crawled (200) <GET http://tl.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:34,079 DEBUG: Crawled (200) <GET http://szs.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:34,119 DEBUG: Crawled (200) <GET http://wjq.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:34,222 DEBUG: Crawled (200) <GET http://wn.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:34,250 DEBUG: Crawled (200) <GET http://ws.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:34,284 DEBUG: Crawled (200) <GET http://wx.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:34,407 DEBUG: Crawled (200) <GET http://xa.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:34,409 DEBUG: Crawled (200) <GET http://wfd.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:34,489 DEBUG: Crawled (200) <GET http://tac.58.com/tacs/chuzu/> (referer: http://tac.58.com/chuzu/)
+2017-09-27 21:18:34,660 DEBUG: Crawled (200) <GET http://wfd.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:34,743 DEBUG: Crawled (200) <GET http://xc.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:34,754 DEBUG: Crawled (200) <GET http://xj.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:34,788 DEBUG: Crawled (200) <GET http://xf.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:34,790 DEBUG: Crawled (200) <GET http://wjq.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:34,824 DEBUG: Crawled (200) <GET http://wz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,064 DEBUG: Crawled (200) <GET http://xt.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,090 DEBUG: Crawled (200) <GET http://wzs.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,150 DEBUG: Crawled (200) <GET http://wzs.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,160 DEBUG: Crawled (200) <GET http://wfd.58.com/wafangdianshi/chuzu/> (referer: http://wfd.58.com/chuzu/)
+2017-09-27 21:18:35,186 DEBUG: Crawled (200) <GET http://xl.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,238 DEBUG: Crawled (200) <GET http://xx.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,253 DEBUG: Crawled (200) <GET http://xam.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,394 DEBUG: Crawled (200) <GET http://xz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,408 DEBUG: Crawled (200) <GET http://xn.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,483 DEBUG: Crawled (200) <GET http://yf.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,537 DEBUG: Crawled (200) <GET http://yb.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,553 DEBUG: Crawled (200) <GET http://yc.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,657 DEBUG: Crawled (200) <GET http://xm.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,685 DEBUG: Crawled (200) <GET http://ya.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,716 DEBUG: Crawled (200) <GET http://yk.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,787 DEBUG: Crawled (200) <GET http://xam.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:35,899 DEBUG: Crawled (200) <GET http://yl.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:36,003 DEBUG: Crawled (200) <GET http://yy.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:36,038 DEBUG: Crawled (200) <GET http://yxx.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:36,327 DEBUG: Crawled (200) <GET http://zb.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:36,404 DEBUG: Crawled (200) <GET http://zd.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:36,640 DEBUG: Crawled (200) <GET http://yq.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:36,707 DEBUG: Crawled (200) <GET http://zg.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:36,733 DEBUG: Crawled (200) <GET http://zh.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:37,638 DEBUG: Crawled (200) <GET http://zc.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:37,658 DEBUG: Crawled (200) <GET http://tc.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:38,040 DEBUG: Crawled (200) <GET http://zjj.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:38,199 DEBUG: Crawled (200) <GET http://zjk.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:38,435 DEBUG: Crawled (200) <GET http://zk.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:38,524 DEBUG: Crawled (200) <GET http://yt.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:38,593 DEBUG: Crawled (200) <GET http://sp.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:38,818 DEBUG: Crawled (200) <GET http://zmd.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:38,858 DEBUG: Crawled (200) <GET http://zs.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:38,958 DEBUG: Crawled (200) <GET http://zjk.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:39,134 DEBUG: Crawled (200) <GET http://sm.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:39,211 DEBUG: Crawled (200) <GET http://zw.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:39,256 DEBUG: Crawled (200) <GET http://zmd.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:39,312 DEBUG: Crawled (200) <GET http://zx.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:39,412 DEBUG: Crawled (200) <GET http://zq.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:39,660 DEBUG: Crawled (200) <GET http://lyg.58.com/xinpu/chuzu/> (referer: http://lyg.58.com/chuzu/)
+2017-09-27 21:18:39,737 DEBUG: Crawled (200) <GET http://zz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:40,043 DEBUG: Crawled (200) <GET http://alsm.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:18:40,210 DEBUG: Crawled (200) <GET http://zt.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:40,525 DEBUG: Crawled (200) <GET http://alt.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:41,058 DEBUG: Crawled (200) <GET http://aks.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:18:41,380 DEBUG: Crawled (200) <GET http://alsm.58.com/alashanzuoqi/chuzu/> (referer: http://alsm.58.com/chuzu/)
+2017-09-27 21:18:41,808 DEBUG: Crawled (200) <GET http://betl.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:33,341 INFO: Scrapy 1.4.0 started (bot: tcErShouFangT0)
+2017-09-27 21:19:33,341 INFO: Overridden settings: {'BOT_NAME': 'tcErShouFangT0', 'DOWNLOAD_DELAY': 0.5, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'NEWSPIDER_MODULE': 'tcErShouFangT0.spiders', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'SPIDER_MODULES': ['tcErShouFangT0.spiders']}
+2017-09-27 21:19:33,369 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-09-27 21:19:33,370 INFO: Reading start URLs from redis key 'tcErShouFang:Start_URL' (batch size: 16, encoding: utf-8
+2017-09-27 21:19:33,455 INFO: Enabled downloader middlewares:
+['tcErShouFangT0.middlewares.Tcershoufangt0SpiderMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-09-27 21:19:33,458 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-09-27 21:19:33,460 INFO: Enabled item pipelines:
+['scrapy_redis.pipelines.RedisPipeline']
+2017-09-27 21:19:33,460 INFO: Spider opened
+2017-09-27 21:19:33,504 DEBUG: Resuming crawl (7077 requests scheduled)
+2017-09-27 21:19:33,505 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-09-27 21:19:33,506 DEBUG: Telnet console listening on 127.0.0.1:6024
+2017-09-27 21:19:33,857 DEBUG: Crawled (403) <GET http://cixi.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:33,959 ERROR: <twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2017-09-27 21:19:33,959 ERROR: Occur HttpError on http://cixi.58.com/chuzu/
+2017-09-27 21:19:34,030 DEBUG: Crawled (200) <GET http://dxal.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,127 DEBUG: Crawled (200) <GET http://hami.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,165 DEBUG: Crawled (200) <GET http://bygl.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,209 DEBUG: Crawled (200) <GET http://hlbe.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,252 DEBUG: Crawled (200) <GET http://heze.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,338 DEBUG: Crawled (200) <GET http://erds.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,414 DEBUG: Crawled (200) <GET http://bygl.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,479 DEBUG: Crawled (200) <GET http://dxal.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,534 DEBUG: Crawled (200) <GET http://hrb.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,597 DEBUG: Crawled (200) <GET http://hld.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,619 DEBUG: Crawled (200) <GET http://hshi.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,723 DEBUG: Crawled (200) <GET http://dali.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,727 DEBUG: Crawled (200) <GET http://hlr.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,730 DEBUG: Crawled (200) <GET http://cixi.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,732 DEBUG: Crawled (200) <GET http://erds.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,834 DEBUG: Crawled (200) <GET http://hami.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,836 DEBUG: Crawled (200) <GET http://hlbe.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:34,945 DEBUG: Crawled (200) <GET http://jixi.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:35,073 DEBUG: Crawled (200) <GET http://jms.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:19:35,075 DEBUG: Redirecting (301) to <GET http://bygl.58.com/duanzu/> from <GET http://kel.58.com/duanzu/>
+2017-09-27 21:19:35,081 DEBUG: Filtered duplicate request <GET http://bygl.58.com/duanzu/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2017-09-27 21:19:35,116 DEBUG: Crawled (200) <GET http://jyg.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:19:35,255 DEBUG: Crawled (200) <GET http://hshi.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:35,490 DEBUG: Crawled (200) <GET http://lps.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:19:35,500 DEBUG: Crawled (200) <GET http://jixi.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:35,511 DEBUG: Crawled (200) <GET http://lyg.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:19:35,533 DEBUG: Crawled (200) <GET http://erds.58.com/dongshengqu/chuzu/> (referer: http://erds.58.com/chuzu/)
+2017-09-27 21:19:35,635 DEBUG: Crawled (200) <GET http://lasa.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:35,698 DEBUG: Crawled (200) <GET http://mas.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:19:35,806 DEBUG: Crawled (200) <GET http://klmy.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:35,869 DEBUG: Crawled (200) <GET http://pld.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:19:35,871 DEBUG: Crawled (200) <GET http://kzls.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:35,899 DEBUG: Crawled (200) <GET http://qdn.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:19:35,901 DEBUG: Crawled (200) <GET http://pds.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:19:36,556 DEBUG: Crawled (200) <GET http://erds.58.com/dalateqi/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:19:36,665 INFO: Cannnot find  subway or Withsuby in funciton C_subRegionR http://erds.58.com/dalateqi/chuzu/
+2017-09-27 21:19:37,398 DEBUG: Crawled (200) <GET http://erds.58.com/kangbsq/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:19:37,508 INFO: Cannnot find  subway or Withsuby in funciton C_subRegionR http://erds.58.com/kangbsq/chuzu/
+2017-09-27 21:19:37,787 DEBUG: Crawled (200) <GET http://erds.58.com/etuokeqi/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:19:37,901 INFO: Cannnot find  subway or Withsuby in funciton C_subRegionR http://erds.58.com/etuokeqi/chuzu/
+2017-09-27 21:19:38,823 DEBUG: Crawled (200) <GET http://erds.58.com/wushenqi/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:19:38,936 INFO: Cannnot find  subway or Withsuby in funciton C_subRegionR http://erds.58.com/wushenqi/chuzu/
+2017-09-27 21:19:39,059 DEBUG: Crawled (200) <GET http://erds.58.com/eerduosi/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:19:39,169 INFO: Cannnot find  subway or Withsuby in funciton C_subRegionR http://erds.58.com/eerduosi/chuzu/
+2017-09-27 21:19:40,780 DEBUG: Crawled (200) <GET http://erds.58.com/sangongli/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:19:40,877 DEBUG: Crawled (200) <GET http://mdj.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:19:41,434 DEBUG: Crawled (200) <GET http://erds.58.com/beichukou/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:19:41,857 DEBUG: Crawled (200) <GET http://erds.58.com/zhungeerqi/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:19:41,971 INFO: Cannnot find  subway or Withsuby in funciton C_subRegionR http://erds.58.com/zhungeerqi/chuzu/
+2017-09-27 21:19:43,112 DEBUG: Crawled (200) <GET http://heze.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:43,825 DEBUG: Crawled (200) <GET http://erds.58.com/tongchuanzhen/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:19:43,983 DEBUG: Crawled (200) <GET http://erds.58.com/etuokeqianqi/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:19:44,102 INFO: Cannnot find  subway or Withsuby in funciton C_subRegionR http://erds.58.com/etuokeqianqi/chuzu/
+2017-09-27 21:19:44,382 DEBUG: Crawled (200) <GET http://erds.58.com/jiataishichang/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:19:44,434 DEBUG: Crawled (200) <GET http://erds.58.com/yijinhuoluoqi/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:19:44,563 INFO: Cannnot find  subway or Withsuby in funciton C_subRegionR http://erds.58.com/yijinhuoluoqi/chuzu/
+2017-09-27 21:19:44,845 DEBUG: Crawled (200) <GET http://qqhr.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:45,232 DEBUG: Crawled (200) <GET http://erds.58.com/tiexidongsheng/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:19:45,472 DEBUG: Crawled (200) <GET http://qqhr.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:19:45,504 DEBUG: Crawled (200) <GET http://erds.58.com/donglianzhongxue/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:19:45,668 DEBUG: Crawled (200) <GET http://qxn.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:19:46,214 DEBUG: Crawled (200) <GET http://erds.58.com/chengnandongsheng/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:19:46,260 DEBUG: Crawled (200) <GET http://rkz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:19:46,725 DEBUG: Crawled (200) <GET http://sjz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:10,055 DEBUG: Crawled (200) <GET http://dali.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:10,057 DEBUG: Crawled (200) <GET http://qth.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:10,059 DEBUG: Crawled (200) <GET http://erds.58.com/hangjinqi/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:20:10,061 DEBUG: Crawled (200) <GET http://scnj.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:10,062 DEBUG: Retrying <GET http://qhd.58.com/duanzu/> (failed 1 times): 502 Bad Gateway
+2017-09-27 21:20:10,071 DEBUG: Crawled (200) <GET http://klmy.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:10,074 DEBUG: Crawled (200) <GET http://erds.58.com/hantaimiao/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:20:10,076 DEBUG: Crawled (200) <GET http://fcg.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:10,078 DEBUG: Crawled (200) <GET http://jdz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:10,081 DEBUG: Crawled (200) <GET http://erds.58.com/dongshengshizhongxin/chuzu/> (referer: http://erds.58.com/dongshengqu/chuzu/)
+2017-09-27 21:20:10,083 DEBUG: Crawled (200) <GET http://scnj.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:10,086 DEBUG: Crawled (200) <GET http://hshi.58.com/huangshigang/chuzu/> (referer: http://hshi.58.com/chuzu/)
+2017-09-27 21:20:10,088 DEBUG: Crawled (200) <GET http://shz.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:10,091 DEBUG: Crawled (200) <GET http://lasa.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:10,093 DEBUG: Crawled (200) <GET http://kzls.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:10,261 INFO: Cannnot find  subway or Withsuby in funciton C_subRegionR http://erds.58.com/hangjinqi/chuzu/
+2017-09-27 21:20:10,920 DEBUG: Crawled (200) <GET http://snj.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:10,943 DEBUG: Crawled (200) <GET http://szs.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:10,953 DEBUG: Crawled (200) <GET http://tac.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:10,956 DEBUG: Crawled (200) <GET http://smx.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:10,975 DEBUG: Crawled (200) <GET http://wfd.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,003 DEBUG: Crawled (200) <GET http://tmsk.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,015 DEBUG: Crawled (200) <GET http://wuan.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,061 DEBUG: Crawled (200) <GET http://tmsk.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,161 DEBUG: Crawled (200) <GET http://wuhu.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,237 DEBUG: Crawled (200) <GET http://wlcb.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,260 DEBUG: Crawled (200) <GET http://wzs.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,413 DEBUG: Crawled (200) <GET http://yich.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,482 DEBUG: Crawled (200) <GET http://sys.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,542 DEBUG: Crawled (200) <GET http://wuhu.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,561 DEBUG: Crawled (200) <GET http://zjj.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,574 DEBUG: Crawled (200) <GET http://xam.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,607 DEBUG: Crawled (200) <GET http://yxx.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,616 DEBUG: Crawled (200) <GET http://tlf.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,781 DEBUG: Crawled (200) <GET http://zjk.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,794 DEBUG: Crawled (200) <GET http://yili.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,802 DEBUG: Crawled (200) <GET http://wjq.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,911 DEBUG: Crawled (200) <GET http://zmd.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:11,951 DEBUG: Crawled (200) <GET http://qxn.58.com/xingyi/chuzu/> (referer: http://qxn.58.com/chuzu/)
+2017-09-27 21:20:11,996 DEBUG: Crawled (200) <GET http://mdj.58.com/dongan/chuzu/> (referer: http://mdj.58.com/chuzu/)
+2017-09-27 21:20:12,028 DEBUG: Crawled (200) <GET http://yiwu.58.com/qiuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:12,113 DEBUG: Crawled (200) <GET http://shz.58.com/laojie/chuzu/> (referer: http://shz.58.com/chuzu/)
+2017-09-27 21:20:12,115 DEBUG: Crawled (200) <GET http://dxal.58.com/huma/chuzu/> (referer: http://dxal.58.com/chuzu/)
+2017-09-27 21:20:12,135 DEBUG: Crawled (200) <GET http://sjz.58.com/qiaoxi/chuzu/> (referer: http://sjz.58.com/chuzu/)
+2017-09-27 21:20:12,320 DEBUG: Crawled (200) <GET http://al.58.com/cheku/b1/> (referer: http://la.58.com)
+2017-09-27 21:20:12,323 DEBUG: Crawled (200) <GET http://yili.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:12,324 DEBUG: Crawled (200) <GET http://ab.58.com/cheku/b1/> (referer: http://la.58.com)
+2017-09-27 21:20:12,768 DEBUG: Crawled (200) <GET http://al.58.com/cheku/b2/> (referer: http://la.58.com)
+2017-09-27 21:20:12,809 DEBUG: Crawled (200) <GET http://alsm.58.com/duanzu/> (referer: http://la.58.com)
+2017-09-27 21:20:12,894 DEBUG: Crawled (200) <GET http://ab.58.com/cheku/b2/> (referer: http://la.58.com)
+2017-09-27 21:20:12,989 DEBUG: Crawled (200) <GET http://yiwu.58.com/chuzu/> (referer: http://la.58.com)
+2017-09-27 21:20:13,025 DEBUG: Crawled (200) <GET http://wuan.58.com/wuanchengqu/chuzu/> (referer: http://wuan.58.com/chuzu/)
+2017-09-27 21:20:13,053 DEBUG: Crawled (200) <GET http://am.58.com/cheku/b1/> (referer: http://la.58.com)
+2017-09-27 21:20:13,256 DEBUG: Crawled (200) <GET http://am.58.com/cheku/b2/> (referer: http://la.58.com)
+2017-09-27 21:20:13,334 DEBUG: Crawled (200) <GET http://ab.58.com/cheku/b3/> (referer: http://la.58.com)
+2017-09-27 21:20:13,342 DEBUG: Crawled (200) <GET http://al.58.com/cheku/b3/> (referer: http://la.58.com)
